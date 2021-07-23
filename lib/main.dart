@@ -33,7 +33,7 @@ class MyHomePage extends StatelessWidget {
   // late String amountInput;
 
   final titleController = TextEditingController();
-  final amoutController = TextEditingController()
+  final amoutController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
