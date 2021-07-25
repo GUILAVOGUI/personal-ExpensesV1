@@ -24,12 +24,17 @@ class TransactionList extends StatelessWidget {
                     height: 19,
                   ),
                   Container(
-                    height: 200,
-                    child: Image.asset(
-                      'assets/images/waiting.png',
-                      fit: BoxFit.cover,
-                    ),
-                  ),
+                      height: 200,
+                      child: Image.network(
+                        'https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2020/10/new-google-workspace-icons.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1',
+                        fit: BoxFit.cover,
+                      )
+
+                      // Image.asset(
+                      //   'assets/images/waiting.png',
+                      //   fit: BoxFit.cover,
+                      // ),
+                      ),
                 ],
               )
             : ListView.builder(
